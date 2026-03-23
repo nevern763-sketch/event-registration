@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tech Conference 2026</h1>
+    <p>Join us for an exciting journey into innovation!</p>
+  </header>
+
+  <section class="event-info">
+    <h2>Event Details</h2>
+    <p>Date: 25 March 2026</p>
+    <p>Location: Chennai, Tamil Nadu</p>
+  </section>
+
+  <form class="registration-form">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label>Name: <input type="text" name="name"></label>
+      <label>Email: <input type="email" name="email"></label>
+      <label>Department:
+        <select name="department">
+          <option>Computer Science</option>
+          <option>Electronics</option>
+          <option>Mechanical</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Preferences</legend>
+      <label><input type="radio" name="session" value="morning"> Morning Session</label>
+      <label><input type="radio" name="session" value="afternoon"> Afternoon Session</label>
+      <label><input type="checkbox" name="newsletter"> Subscribe to Newsletter</label>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <table class="participants">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Session</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Farhathullah</td><td>CSE</td><td>Morning</td></tr>
+      <tr><td>Priya</td><td>ECE</td><td>Afternoon</td></tr>
+    </tbody>
+  </table>
+
+  <footer>
+    <p>Contact: info@techconf.com | Phone: +91 98765 43210</p>
+  </footer>
+</body>
+</html>
