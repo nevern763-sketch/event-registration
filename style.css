@@ -1,0 +1,107 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Event Title */
+header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+header p {
+  font-size: 1.2em;
+}
+
+/* Event Info */
+.event-info {
+  background: #e6f2ff;
+  margin: 20px auto;
+  padding: 15px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Registration Form */
+.registration-form {
+  background: white;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+fieldset {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+legend {
+  font-weight: bold;
+  background: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+input, select {
+  margin: 8px;
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+input:focus, select:focus {
+  border-color: #004080;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background: #004080;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #0066cc;
+}
+
+/* Participants Table */
+.participants {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+.participants th, .participants td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.participants th {
+  background: #004080;
+  color: white;
+}
+.participants tr:nth-child(even) {
+  background: #f9f9f9;
+}
+.participants tr:hover {
+  background: #e6f2ff;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
